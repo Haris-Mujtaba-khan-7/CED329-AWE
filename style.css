@@ -1,0 +1,121 @@
+/* Page */
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+}
+
+
+/* Main Resume Box */
+#resume {
+    width: 760px;
+    margin: auto;
+    border: 1px solid #777;
+    padding: 0 15px 20px;
+    box-sizing: border-box;
+}
+
+
+/* Resume Title */
+#title {
+    text-align: center;
+
+    color: darkblue;
+
+    /* Small caps */
+    font-variant: small-caps;
+
+    font-size: 23px;
+    font-weight: bold;
+
+    /* Dark blue bars above and below */
+    border-top: 8px solid darkblue;
+    border-bottom: 8px solid darkblue;
+
+    padding: 5px 0;
+    margin: 0 0 10px;
+
+    letter-spacing: 1px;
+}
+
+
+/* Main Layout */
+#main {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+/* Left Content */
+#content {
+    flex: 1;
+    padding-right: 5px;
+}
+
+
+/* Right Sidebar */
+#sidebar {
+    width: 180px;
+
+    border: 1px solid #777;
+
+    padding: 8px;
+
+    box-sizing: border-box;
+}
+
+
+/* Sections */
+.section {
+    margin-bottom: 10px;
+}
+
+
+/* Section Headings */
+.section-title {
+    display: block;
+
+    color: darkblue;
+
+    font-weight: bold;
+
+    border-bottom: 1px solid darkblue;
+
+    padding-bottom: 2px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Paragraphs */
+.section p {
+    margin: 3px 0;
+    line-height: 1.15;
+}
+
+
+/* Sidebar Heading */
+#sidebar .section-title {
+    border-bottom: none;
+    margin-bottom: 4px;
+}
+
+
+/* Sidebar Text */
+#sidebar p {
+    margin: 2px 0;
+
+    font-size: 11px;
+
+    line-height: 1.1;
+}
+
+
+/* Links */
+a {
+    color: darkblue;
+}
